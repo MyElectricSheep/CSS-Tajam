@@ -12,11 +12,6 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    /* position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0; */
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -99,6 +94,7 @@ ul a:hover {
     height: 70vh;
     display: flex;
     flex-direction: column;
+    /* border: 1px solid magenta; */
 }
 
 .header-container {
@@ -159,6 +155,7 @@ ul a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border: 1px solid yellow; */
 }
 
 .we-are-awesome-section h1:after {
@@ -201,6 +198,7 @@ button:hover {
     height: 40vh;
     justify-content: space-around;
     align-items: center;
+    /* border: 1px solid blue; */
 }
 
 .our-story-section img {
@@ -223,7 +221,7 @@ button:hover {
     height: 60vh;
     justify-content: center;
     align-items: center;
-    
+    /* border: 1px solid gold; */
 }
 
 .watch-background-image {
@@ -252,12 +250,14 @@ button:hover {
 /* EXPERTISE SECTION */
 
 .expertise-section {
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
+    /* border: 1px solid green; */
+   
 }
 
 .top-content-expertise h2 {
@@ -278,14 +278,14 @@ button:hover {
     margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
+    height: 70vh;
+    /* border: 1px solid pink */
 }
 
 .expertise-grid-item {
     display: flex;
     flex-direction: column;
     width: 33%;
-    height: 80%;
-    /* height: 200px; */
     align-items: center;
     justify-content: center;;
 }
@@ -311,4 +311,74 @@ button:hover {
 
 .border-bottom {
     border-bottom: 1px solid lightgrey;
+}
+
+/* Meet the team section */
+
+.meet-the-team-section {
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* border: 1px solid magenta; */
+}
+
+.meet-the-team-background-image {
+    background-image: url(../img/bgk-header.png);
+    height: inherit;
+    width: 100vw;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top-content-meet-the-team * {
+    color: white;
+}
+
+.top-content-meet-the-team h4:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    padding-top: 0.8rem;
+    border-bottom: 1px solid white;
+    opacity: 0.5;
+}
+
+.meet-the-team-section p {
+    color: white;
+    font-size: 0.765rem;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem
+}
+
+.meet-the-team-card-container {
+    padding-top: 2.5rem;
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+}
+
+.meet-the-team-card {
+    width: 200px;
+    border: 1px solid lightgrey;
+}
+
+.meet-the-team-card img {
+    max-width: 100%;
+    object-fit: cover;
+    padding-bottom: 1.5em;
+}
+
+.meet-the-team-card p {
+    margin: 0.75em 0 1.5em 0;
+    text-transform: uppercase;
 }
