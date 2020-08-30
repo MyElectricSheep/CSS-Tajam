@@ -382,3 +382,133 @@ button:hover {
     margin: 0.75em 0 1.5em 0;
     text-transform: uppercase;
 }
+
+/* Mail section */
+
+.mail-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    width: 82%;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.mail-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 40%;
+}
+
+.mail-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.mail-form-container h2 {
+    padding-bottom: 1rem;
+}
+
+.mail-form input,
+.mail-form textarea {
+    border: 1px solid lightgrey;
+    padding: 1em 0 1em 1em;
+    margin-bottom: 1.3em;
+    border-radius: 2px;
+    color: darkgrey;
+}
+
+.mail-form input::placeholder,
+.mail-form textarea::placeholder  { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: darkgrey;
+    opacity: 0.9;
+    font-family: 'Roboto', sans-serif;
+}
+
+.mail-form input:focus,
+.mail-form textarea:focus {
+    outline: none !important;
+    border:1px solid #02dbcc;
+    box-shadow: 0 0 10px #719ECE;
+}
+
+.mail-form textarea { 
+    resize: none;
+}
+
+.mail-form-container button {
+    width: 130px;
+}
+
+.happy-clients-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 47%;
+    height: 73.225%;
+}
+
+.customer-logos-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+.customer-logo {
+    height: 50px;
+    margin: 10px;
+    flex-basis: 33%;
+}
+
+.logo-1 {
+    background: url('../img/Zara_Logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+.logo-2 {
+    background: url('../img/Logo_of_Mango_(new).png') no-repeat center center;
+    background-size: contain;
+  }
+
+.logo-3 {
+    background: url('../img/1280px-Barneys_New_York_Logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .logo-4 {
+    background: url('../img/1280px-Gucci_Logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+.logo-5 {
+    background: url('../img/Calvin_klein_logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+.logo-6 {
+    background: url('../img/1280px-Logo_NIKE.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .logo-7 {
+    background: url('../img/Converse_logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+.logo-8 {
+    background: url('../img/Puma_Logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+.logo-9 {
+    background: url('../img/1280px-Levis_logo.png') no-repeat center center;
+    background-size: contain;
+  }
+
+  .logo-10 {
+    background: url('../img/Billabong.png') no-repeat center center;
+    background-size: contain;
+  }
