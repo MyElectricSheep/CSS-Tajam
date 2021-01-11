@@ -2,9 +2,9 @@
 /* font-family: 'Playfair Display', serif; */
 /* font-family: 'Lato', sans-serif; */
 
-/* RESETS */
+/* GLOBAL RESETS */
 
-* {
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -24,7 +24,7 @@ p {
   margin: 0;
 }
 
-/* TYPOGRAPHY */
+/* TYPOGRAPHY GLOBAL RULES */
 
 h2 {
   font-family: "Playfair Display", serif;
@@ -89,6 +89,63 @@ ul a:hover {
   margin: 0;
 }
 
+/* LAYOUT BORDER HELPERS */
+
+.main-container {
+  /* border: 1px solid orange; */
+}
+
+.header-and-section-container {
+  /* border: 1px solid magenta; */
+}
+
+.header-container {
+  /* border: 1px solid red; */
+}
+
+.we-are-awesome-section {
+  /* border: 1px solid yellow; */
+}
+
+.our-story-section {
+  /* border: 1px solid blue; */
+}
+
+.watch-section {
+  /* border: 1px solid gold; */
+}
+
+.expertise-section {
+  /* border: 1px solid green; */
+}
+
+.expertise-grid-container {
+  /* border: 1px solid pink */
+}
+
+.meet-the-team-section {
+  /* border: 1px solid magenta; */
+}
+
+.mail-section {
+  /* border: 1px solid red; */
+}
+
+.footer-container {
+  /* border: 1px solid teal */
+}
+
+.footer-section1-container,
+.footer-section2-container,
+.footer-section3-container {
+  /* border: 1px solid green */
+}
+
+.footer-bottom {
+  /* border: 1px solid magenta */
+}
+
+
 /* LAYOUT */
 
 .main-container {
@@ -109,6 +166,7 @@ ul a:hover {
   justify-content: space-between;
   padding-top: 1em;
   position: relative;
+  /* border: 1px solid red; */
 }
 
 .header-background-image {
@@ -145,9 +203,6 @@ ul a:hover {
 
 .header-menu-container {
   width: 60%;
-}
-
-.header-logo-tajam {
 }
 
 .header-menu {
